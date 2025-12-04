@@ -268,3 +268,4 @@ Tests: pytest for backend, Jest for frontend
 
 Commits: Conventional Commits specification
 
+
