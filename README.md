@@ -30,6 +30,7 @@ Cost Optimized: ~$10/month for 1000 users
 
 Infrastructure as Code: Repeatable deployments with CloudFormation
 
+
 🏗️ Architecture
 text
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
@@ -50,6 +51,7 @@ text
 │   Amazon S3     │     │      IAM        │     │  Return Optim.  │
 │   (Storage)     │     │   (Security)    │     │     Image       │
 └─────────────────┘     └─────────────────┘     └─────────────────┘
+
 🚀 Quick Start
 1. Live Demo
 Visit: https://your-amplify-url.amplifyapp.com
@@ -63,6 +65,7 @@ curl -X POST https://ke3a91dqwe.execute-api.ap-south-1.amazonaws.com/prod/optimi
     "width": 1200,
     "format": "webp"
   }'
+
 📁 Project Structure
 text
 imageflow-pro/
@@ -87,6 +90,7 @@ imageflow-pro/
     ├── API_REFERENCE.md
     ├── ARCHITECTURE.md
     └── DEPLOYMENT_GUIDE.md
+   
 🔧 Technology Stack
 Component	Technology	Purpose
 Frontend	React 18, AWS Amplify	User interface and hosting
@@ -97,6 +101,7 @@ Processing	Pillow (PIL), Custom AI	Image manipulation
 Monitoring	CloudWatch, X-Ray	Logging and performance
 Security	IAM, CORS, Rate Limiting	Access control
 Deployment	CloudFormation, Amplify CI/CD	Infrastructure automation
+
 📊 API Reference
 Endpoint
 text
@@ -122,6 +127,7 @@ json
   "compressionRatio": 84.8,
   "processingTime": 1.45
 }
+
 🎯 Use Cases
 E-commerce Platforms
 Product Images: Optimize thousands of product photos
@@ -158,6 +164,7 @@ Processing Time	<2 seconds	3-5 seconds
 Uptime	99.9%	99.5%
 Cost per 1000 images	$0.50	$2.00+
 Concurrent Users	1000+	100-200
+
 🔒 Security & Compliance
 Data Protection
 Input Validation: Sanitize all user inputs
@@ -243,7 +250,7 @@ We welcome contributions! Please see our Contributing Guidelines.
 Development Setup
 bash
 # Clone repository
-git clone https://github.com/yourusername/imageflow-pro.git
+git clone https://github.com/HARI-COLLA/ImageFlow-Pro---AWS-Serverless-Image-Optimization-Platform
 
 # Install dependencies
 cd frontend && npm install
@@ -260,3 +267,4 @@ JavaScript: ESLint with Airbnb style guide
 Tests: pytest for backend, Jest for frontend
 
 Commits: Conventional Commits specification
+
